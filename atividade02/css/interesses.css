@@ -1,0 +1,40 @@
+@import url(global.css);
+@import url(style.css);
+
+#main {
+    flex-direction: column;
+}
+
+#main h3{
+    padding-left: 1em;
+}
+
+#main ul{
+    margin-top: 1em;
+    list-style: none;
+    justify-content: space-around;
+}
+
+#main li{
+    padding: 15px;
+    border: 1px solid transparent;
+    transition: all .500s linear;
+    cursor: pointer;
+}
+
+#main li:hover{
+    border: 1px solid black;
+}
+
+#main li p{
+    margin: 10px auto;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    transition: all .500s linear;
+}
+
+#main li img{
+    height: 100px;
+}
