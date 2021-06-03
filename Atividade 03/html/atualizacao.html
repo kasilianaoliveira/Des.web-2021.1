@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/atualizacao.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <form action="cadastro.html" method="get">
+            <label for="codigo">codigo: </label>
+            <input type="text" name="codigo" id="codigo" placeholder="Insira o codigo">
+
+            <label for="nome">nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Insira o nome">
+
+            <label for="editora">editora: </label>
+            <input type="text" name="editora" id="editora" placeholder="Insira a editora">
+
+            <label for="qntd">quantidade: </label>
+            <input type="number" name="qntd" id="qntd" placeholder="Insira a quantidade">
+
+            <label for="valor">valor: </label>
+            <input type="number" name="valor" id="valor" step="0.01" placeholder="Insira o valor">
+
+            <label for="localizacao">localizacao: </label>
+            <input type="text" name="localizacao" id="localizacao" placeholder="Insira onde se localiza">
+
+            <label for="status">status: </label>
+            <select name="status" id="status">
+                <option value="" selected> </option>
+                <option value="Usado">Usado</option>
+                <option value="Novo">Novo</option>
+            </select>
+            <input type="submit" value="Ver alteracao">
+        </form>
+    </div>
+</body>
+
+</html>
