@@ -1,0 +1,100 @@
+body {
+  background: #d2ece6b3;
+}
+header #headerContainer {
+  height: 5rem;
+  background: #57b699b3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header #logo {
+  margin-left: 1rem;
+}
+header #headerContent {
+  font-weight: 700;
+}
+
+header #headerContent a {
+  margin-left: 2rem;
+  color: white;
+}
+
+header #headerContent a:hover {
+  color: #072e38fa;
+}
+
+.container {
+  width: 100%;
+
+  color: #fff;
+
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentContainer {
+  margin: 10px;
+
+  display: flex;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #072e38fa;
+}
+.image img {
+  width: 60%;
+  height: 200px;
+}
+
+.form {
+  background: #57b69a;
+  padding: 0.5rem;
+  width: 50%;
+}
+.form form {
+  font-size: 1.2rem;
+  gap: 0.2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form form input {
+  width: 50%;
+  height: 1.5rem;
+  border: 3px;
+  padding: 1rem;
+}
+
+.form h2 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.form button {
+  width: 30%;
+  height: 2.2rem;
+  background-color: #072e38;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  transition: 0.3ms;
+}
+
+.form select {
+  margin-bottom: 5px;
+}
+.form button:hover {
+  background-color: #57b69a;
+  color: white;
+}
