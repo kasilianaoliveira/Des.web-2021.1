@@ -10,7 +10,21 @@
 </head>
 
 <body>
-    <div class="main">
+    <header class="header">
+        <div id="headerContainer">
+            <a href="cadastro.html" tabindex="logo">
+                <img src="../assets/logo.svg" alt="logo" height="80" width="100" />
+            </a>
+            <div id="headerContent">
+                <a href="./cadastro.html" tabindex="1">Cadastro</a>
+                <a href="historico.html" tabindex="2">Leitura</a>
+                <a href="../atualização/atualizacao.html" tabindex="3">Alteração</a>
+                <a href="contato.html" tabindex="4">Exclusão</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
         <form action="cadastro.html" method="get">
             <label for="codigo">codigo: </label>
             <input type="text" name="codigo" id="codigo" placeholder="Insira o codigo">
