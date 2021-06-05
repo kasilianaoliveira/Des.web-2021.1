@@ -1,105 +1,63 @@
-body {
-  background: #d2ece6b3;
-}
-header #headerContainer {
-  height: 5rem;
-  background: #57b699b3;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+/* @import url(global.css); */
+@import url(header.css);
+@import url(form.css);
 
-header #logo {
-  margin-left: 1rem;
-}
-header #headerContent {
-  font-weight: 700;
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
-header #headerContent a {
-  margin-left: 2rem;
-  color: white;
+.contentContainer{
+    display: flex;
 }
 
-header #headerContent a:hover {
-  color: #072e38fa;
-}
-
-.container {
-  width: 100%;
-
-  color: #fff;
-
-  margin-top: 2rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.contentContainer {
-  margin: 10px;
-
-  display: flex;
-}
 
 .image {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #072e38fa;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #072e38fa;
 }
+
 .image img {
-  width: 50%;
-  height: 200px;
+    width: 60%;
+    height: 200px;
 }
 
-.form {
-  background: #57b69a;
-  padding: 0.5rem;
-  width: 50%;
-}
-.form form {
-  font-size: 1.2rem;
-  gap: 0.2rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.form form input {
-  width: 50%;
-  height: 1.5rem;
-  border: 3px;
-  padding: 1rem;
+form h2{
+    margin: 2rem 0;
+    width: 100%!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    color: white;
+    background-color: #57b69a;
 }
 
-.form h2 {
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 2rem;
+form label{
+    margin: 5px 0;
+    color: white;
 }
 
-.form button {
-  margin-bottom: 20px;
-
-  width: 50%;
-  height: 2.2rem;
-  background-color: #072e38;
-  color: white;
-  font-weight: bold;
-  border: 0;
-  border-radius: 8px;
-  opacity: 0.7;
-  transition: 0.3ms;
+form input{
+    padding: 5px 10px;
 }
 
-.form select {
-  margin-bottom: 15px;
-}
-.form button:hover {
-  background: #072e38;
-  opacity: 1;
-  font-weight: bold;
+form input[type="submit"]{
+    margin: 10px 0;
 }
