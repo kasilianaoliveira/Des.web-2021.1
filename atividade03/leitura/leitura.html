@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="leitura.css" />
+    <link rel="stylesheet" href="../global.css" />
+    <title>Leitura</title>
+  </head>
+  <body>
+    <header class="header">
+      <div id="headerContainer">
+        <a href="cadastro.html" tabindex="logo">
+          <img src="../assets/logo.svg" alt="logo" height="80" width="100" />
+        </a>
+        <div id="headerContent">
+          <a href="../cadastro/cadastro.html" tabindex="1">Cadastro</a>
+          <a href="./leitura.html" tabindex="2">Leitura</a>
+          <a href="../atualização/atualizacao.html" tabindex="3">Alteração</a>
+          <a href="../exclusao/exclusão.html" tabindex="4">Exclusão</a>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="content">
+        <div class="contentContainer">
+          <div class="image">
+            <img src="../assets/lupe.svg" alt="readonly" />
+          </div>
+          <div class="form">
+            <h2>Veja as informações do livro cadastrado</h2>
+
+            <form action="">
+              <label for="Codigo">Codigo:</label>
+              <input
+                type="text"
+                id="Codigo"
+                name="Codigo"
+                value="00x"
+                readonly
+              />
+              <br />
+              <label for="Nome">Nome:</label>
+              <input
+                type="text"
+                id="Nome"
+                name="Nome"
+                value="Matematica Basica"
+                readonly
+              />
+              <br />
+              <label for="Editora">Editora:</label>
+              <input
+                type="text"
+                id="Editora"
+                name="Editora"
+                value="Brasil Livros"
+                readonly
+              />
+              <br />
+              <label for="Quantidade">Quantidade:</label>
+              <input
+                type="number"
+                id="Quantidade"
+                name="Quantidade"
+                value="10"
+                readonly
+              />
+              <br />
+              <label for="Valor">Valor:</label>
+              <input
+                type="text"
+                id="Valor"
+                name="Valor"
+                value="R$ 10.50"
+                readonly
+              />
+              <br />
+              <label for="Status">Status:</label>
+              <select id="Status" name="Status">
+                <option value="Usado" disabled>Usado</option>
+                <option value="Novo" selected disabled>Novo</option>
+              </select>
+              <a href="../cadastro/cadastro.html">Voltar</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
