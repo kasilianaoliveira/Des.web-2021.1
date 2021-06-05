@@ -1,5 +1,0 @@
-Equipe:
-1 - Dirlandia de Oliveira de Sousa  (Exclusão)
-2 - Kasiliana Oliveira da Silva (Cadastro)
-3 - Ygor Bezerra Cruz (Alteração)
-4 - Wilhelm de Sousa Steins (Leitura)
