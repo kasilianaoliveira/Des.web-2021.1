@@ -1,0 +1,27 @@
+body {
+    background: #d2ece6b3;
+  }
+  header #headerContainer {
+    height: 5rem;
+    background: #57b699b3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  header #logo {
+    margin-left: 1rem;
+  }
+  header #headerContent {
+    font-weight: 700;
+  }
+  
+  header #headerContent a {
+    margin-left: 2rem;
+    color: white;
+  }
+  
+  header #headerContent a:hover {
+    color: #072e38fa;
+  }

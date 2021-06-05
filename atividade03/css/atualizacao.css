@@ -1,0 +1,63 @@
+@import url(global.css);
+@import url(header.css);
+@import url(form.css);
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.contentContainer{
+    display: flex;
+}
+
+
+.image {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #072e38fa;
+}
+
+.image img {
+    width: 60%;
+    height: 200px;
+}
+
+form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form h2{
+    margin: 2rem 0;
+    width: 100%!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    color: white;
+    background-color: #57b69a;
+}
+
+form label{
+    margin: 5px 0;
+    color: white;
+}
+
+form input{
+    padding: 5px 10px;
+}
+
+form input[type="submit"]{
+    margin: 10px 0;
+}
