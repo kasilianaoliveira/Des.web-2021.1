@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/atualizacao.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div id="headerContainer">
+            <a href="cadastro.html" tabindex="logo">
+                <img src="../assets/logo.svg" alt="logo" height="80" width="100" />
+            </a>
+            <div id="headerContent">
+                <a href="./cadastro.html" tabindex="1">Cadastro</a>
+                <a href="./historico.html" tabindex="2">Leitura</a>
+                <a href="./atualizacao.html" tabindex="3">Alteração</a>
+                <a href="./contato.html" tabindex="4">Exclusão</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="contentContainer">
+            <div class="image">
+                <img src="../assets/alteracao svg.svg" alt="alteracao svg">
+            </div>
+            <form class="form" action="leitura.html" method="get">
+                <h2>Preencha as informações para mudar os dados do livro</h2>
+                <label for="codigo">Código </label>
+                <input type="text" name="codigo" id="codigo" placeholder="Insira o codigo">
+
+                <label for="nome">Nome </label>
+                <input type="text" name="nome" id="nome" placeholder="Insira o nome">
+
+                <label for="editora">Editora </label>
+                <input type="text" name="editora" id="editora" placeholder="Insira a editora">
+
+                <label for="qntd">Quantidade </label>
+                <input type="number" name="qntd" id="qntd" placeholder="Insira a quantidade">
+
+                <label for="valor">Valor </label>
+                <input type="number" name="valor" id="valor" step="0.01" placeholder="Insira o valor">
+
+                <label for="localizacao">Localizacao </label>
+                <input type="text" name="localizacao" id="localizacao" placeholder="Insira onde se localiza">
+
+                <label for="status">Status </label>
+                <select name="status" id="status">
+                    <option value="" selected> </option>
+                    <option value="Usado">Usado</option>
+                    <option value="Novo">Novo</option>
+                </select>
+                <input type="submit" value="Ver alteracao">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
