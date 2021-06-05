@@ -28,18 +28,15 @@ header #headerContent a:hover {
 
 .container {
   width: 100%;
-
   color: #fff;
-
   margin-top: 2rem;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .contentContainer {
   margin: 10px;
-
+  min-width: 70vw;
   display: flex;
 }
 
@@ -51,7 +48,7 @@ header #headerContent a:hover {
   background-color: #072e38fa;
 }
 .image img {
-  width: 60%;
+  width: 80%;
   height: 200px;
 }
 
@@ -81,9 +78,10 @@ header #headerContent a:hover {
   margin-bottom: 2rem;
 }
 
-.form button {
+.form a {
   margin-bottom: 20px;
-
+  text-align: center;
+  line-height: 2.2rem;
   width: 30%;
   height: 2.2rem;
   background-color: #072e38;
@@ -98,7 +96,7 @@ header #headerContent a:hover {
 .form select {
   margin-bottom: 15px;
 }
-.form button:hover {
+.form a:hover {
   background: #072e38;
   opacity: 1;
   font-weight: bold;

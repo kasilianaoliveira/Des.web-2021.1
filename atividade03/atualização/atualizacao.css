@@ -51,7 +51,7 @@ header #headerContent a:hover {
   background-color: #072e38fa;
 }
 .image img {
-  width: 60%;
+  width: 50%;
   height: 200px;
 }
 
@@ -84,7 +84,7 @@ header #headerContent a:hover {
 .form button {
   margin-bottom: 20px;
 
-  width: 30%;
+  width: 50%;
   height: 2.2rem;
   background-color: #072e38;
   color: white;
