@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML+CSS</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Projeto adaptado - Des Web</h1>
+        <p><i>Exemplo de formulário de pesquisa(Survey)</i></p>
+      </div>
+      <div class="content">
+        <form>
+          <div class="form-input">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Coloque seu nome.." />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Coloque seu email..."
+            />
+
+            <label for="age">Idade <span>opcional</span></label>
+            <input type="text" placeholder="idade" />
+
+            <label for="estado">Qual opção descreve o seu estado atual?</label>
+            <select name="select">
+              <option value="value01" selected>Selecione a ocupação</option>
+              <option value="value02">Estudante</option>
+              <option value="value03">CLT</option>
+              <option value="value04">Prefiro não dizer</option>
+              <option value="value05">Outro</option>
+            </select>
+
+            <div class="form-choose">
+              <p>Você recomendaria este projeto?</p>
+              <input
+                type="radio"
+                id="certainly"
+                name="recommendation"
+                value="certainly"
+              />
+              <label for="certainly">Com certeza!</label><br />
+              <input
+                type="radio"
+                id="maybe"
+                name="recommendation"
+                value="maybe"
+              />
+              <label for="maybe">Talvez</label><br />
+              <input type="radio" id="no" name="recommendation" value="no" />
+              <label for="no">Não</label>
+            </div>
+            <p>
+              O que você gostaria de melhorar?
+              <span>(Selecione quantas quiser...)</span>
+            </p>
+            <div>
+              <input
+                type="checkbox"
+                id="estudy"
+                name="interesse"
+                valor="estudo"
+              />
+              <label for="estudy"> Ter mais tempo para estudar </label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="study-like"
+                name="interesse"
+                valor="study-like"
+              />
+              <label for="study-like"> Estudar o que eu gosto </label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="management"
+                name="interesse"
+                valor="management"
+              />
+              <label for="management"> Gerência de projeto </label>
+            </div>
+            <div>
+              <input type="checkbox" id="node" name="interesse" valor="node" />
+              <label for="node"> NodeJS </label>
+            </div>
+
+            <label for="sugestao">Algum comentário ou sugestão?</label>
+            <textarea
+              rows="2"
+              placeholder=" Insira o seu comentário ou sugestão aqui..."
+            ></textarea>
+
+            <div class="button">
+              <button type="submit">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
