@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+body,
+input,
+textarea,
+select {
+  font: 400 1rem Arial, Helvetica, sans-serif;
+}
+button {
+  cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+  padding: 5px;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
