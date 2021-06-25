@@ -33,3 +33,9 @@ function removertarefaBotao(tarefaId){
     botao.innerHTML = "X";
     return botao;
 }
+document.addEventListener("keypress", function(e){
+    if(e.key == "Enter"){
+        const botao = document.getElementById("button-add");
+        botao.click();
+    }
+})
