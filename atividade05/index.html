@@ -1,36 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./global.css">
-  <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="container">
-    <div class="header">
-      <h1>Tarefas a fazer (TO DO APP)</h1>
-      <p>Adicione texto dentro da caixa de testo para inserir novas atividades</p>
-      <p>Clique no item para marcar a atividade como completa</p>
-      <p>Clique no "X" da atividade para remover o item</p>
-    </div>
-    <div class="content">
-      <div class="input">
-        <input type="text" placeholder="Nova tarefa...">
-        <button type="submit">Adicionar</button>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>TO DO</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Tarefas a fazer (TO DO APP)</h1>
+        <p>
+          Adicione texto dentro da caixa de testo para inserir novas atividades
+        </p>
+        <p>Clique no item para marcar a atividade como completa</p>
+        <p>Clique no "X" da atividade para remover o item</p>
       </div>
+      <div class="content">
+        <div class="input">
+          <input
+            id="todoInput"
+            type="text"
+            name="todo"
+            placeholder="Nova tarefa..."
+            maxlength="90"
+          />
+          <button type="submit" id="buttonAdd">Adicionar</button>
+        </div>
 
-      <div class="input">
-        <div class="todo__list" id='todoList'>
-         teste
+        <div class="input">
+          <div class="todo__list" id="todoList"></div>
         </div>
       </div>
-
-      
-
     </div>
-  </div>
-</body>
+
+    <script src="server.js"></script>
+  </body>
 </html>
